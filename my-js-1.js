@@ -1,4 +1,6 @@
 // "use strict";
-let y = 1;
-y = 3 +y;
-console.log(y); // object
+let a = {1:1};
+let b=a;
+ a = 3;
+ console.log(b)
+ console.log(a)
